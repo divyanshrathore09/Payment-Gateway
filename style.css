@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+* {
+    box-sizing: border-box
+}
+
+html {
+    scroll-behavior: auto !important
+}
+
+html.html-wr {
+    margin-top: 0 !important
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 20px 0
+}
+
+.center-wr {
+    width: 1200px;
+    margin: 0 auto
+}
+
+input::-moz-focus-inner {
+    border: 0
+}
+
+select:focus {
+    outline: 0
+}
+body {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    background: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+a {
+    outline-style: none;
+    text-decoration: none;
+    color: inherit
+}
+
+img {
+    max-width: 100%;
+    display: inline-block;
+    vertical-align: middle
+}
+.clearfix:after,
+.clearfix:before {
+    content: "";
+    display: table
+}
+
+.clearfix:after {
+    clear: both
+}
+
+.header-left {
+    float: left;
+    padding: 20px;
+}
+.header-wr {
+    background: #019BFF;
+}
+.header-menu {
+    float: right;
+    padding: 30px 0 20px;
+}
+.header-menu ul {
+    display: inline-block;
+    list-style-type: none;
+    color: #ffffff;
+    vertical-align: middle;
+}
+.header-menu ul li {
+    display: inline-block;
+    padding: 20px 55px;
+    font-size: 20px;
+}
+
+.copyright {
+    background: #000000;
+    color: #ffffff;
+}
+
+.donate-left {
+    float: left;
+    margin: 125px 0 143px;
+}
+.donate-left h1 {
+    color: #ff6501;
+    line-height: 62px;
+    font-size: 52px;
+}
+.donate-right {
+    float: right;
+    margin: 20px 0 0;
+}
+.donate-wr {
+    background: #ffc301;
+}
+.footer-wr {
+    padding: 60px 0;
+    background: #019BFF;
+    color: #ffffff;
+}
+.contact-us {
+    float: left;
+    text-align: left;
+}
+.quick-links {
+    float: right;
+}
+.contact-us h2, .quick-links h2 {
+    font-size: 34px;
+    margin-bottom: 42px;
+}
+.contact-us ul li:first-child a::before {
+    content: "\f095";
+    font-family: fontawesome;
+    margin-right: 10px;
+}
+.contact-us li, .quick-links li {
+    margin: 15px 0;
+    font-size: 20px;
+    list-style: none;
+}
+.quick-links li {
+    text-align: left;
+    list-style-type: disclosure-closed;
+}
+body a:hover {
+    color: #ff6501;
+    transition: 0.2s;
+}
+#contact-email::before {
+    content: "\f0e0";
+    font-family: fontawesome;
+    margin-right: 10px;
+    font-size: 18px;
+}
+.PaymentButton.PaymentButton--light.PaymentButton--rzpTheme.PaymentButton--rzp-light-standard.svelte-ekc7fv {
+    background: #ff6501;
+    color: #ffffff;
+}
+.PaymentButton--rzpTheme.svelte-ekc7fv.svelte-ekc7fv::before {
+    display: none;
+}
+.donate-left form {
+    padding-top: 33px;
+}
